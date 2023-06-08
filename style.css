@@ -89,13 +89,14 @@ body{
     display: flex;
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:420px){
     .Container {
         max-width: 321px;
         margin: 0 auto;
     }
     /* Название */
     .GameName {
+        margin-top: 30px;
         font-size: 51px;
     }
     /* Загрузка */
@@ -165,21 +166,24 @@ body{
     .LeftAndRight {
         display: flex;
         flex-direction: column;
+        margin-bottom: 30PX;
     }
 }
-
-@media screen and (max-width:390px){
+@media screen and (max-width:1080px){
     .Container {
-        max-width: 321px;
+        max-width: 908px;
         margin: 0 auto;
     }
     /* Название */
     .GameName {
-        font-size: 51px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: 100px;
     }
     /* Загрузка */
     .DownloadMenu {
-        max-width: 321px;
+        max-width: 494px;
         margin-top: 40px;
     }  
     .ForWin {
@@ -192,7 +196,7 @@ body{
     
     .ButtonDownload {
         margin-top: 15PX;
-        width: 185px;
+        width: 192px;
         height: 31px;
         font-size: 20px;
         background-color: rgba(124, 0, 182, 1);
@@ -202,7 +206,7 @@ body{
     
     .YourPrice {
         color: rgba(165, 165, 165, 1);
-        font-size: 16px;
+        font-size: 19px;
         padding: 0px 0px 0px 17px;
     }
     
@@ -210,18 +214,18 @@ body{
     .AboutGame {
         margin-top: 40px;
         margin-bottom: 40px;
-        max-width: 321px;
+        max-width: 494px;
         display: flex;
         flex-direction: column;
-        font-size: 20px;
+        font-size: 24px;
     }
     
     .AboutGame p:nth-child(2) {
-        width: 298px;
+        width: 420px;
     }
     
     .AboutGame p:nth-child(3) {
-        width: 298px;
+        width: 420px;
     }
     
     .AG_Text {
@@ -238,11 +242,11 @@ body{
     
     .Photo_PB {
         padding:5.4px 0px;
-        width: 321px;
+        width: 395px;
     }
     
     .LeftAndRight {
         display: flex;
-        flex-direction: column;
+        margin-bottom: 30PX;
     }
 }
