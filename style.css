@@ -169,7 +169,7 @@ body{
         margin-bottom: 30PX;
     }
 }
-@media screen and (max-width:1080px){
+@media screen and (max-width:1380px){
     .Container {
         max-width: 908px;
         margin: 0 auto;
