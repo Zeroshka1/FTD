@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "Pixel";
+    src: url(comic_sans_ms_pixel_rus_eng.ttf);
+}
+body{
+    background-image: url(Bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Pixel";
+    color: white;
+}
+
+.Container {
+    max-width: 1233px;
+    margin: 0 auto;
+}
+/* Название */
+.GameName {
+    font-size: 199px;
+}
+
+/* Загрузка */
+.DownloadMenu {
+    max-width: 359px;
+}
+
+.ForWin {
+    font-size: 32px;
+}
+
+.ButtonAndText {
+    display: flex;
+    align-items: center;
+}
+
+.ButtonDownload {
+    width: 192px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(124, 0, 182, 1);
+    border-style: none;
+    border-radius: 10px;
+}
+
+.YourPrice {
+    color: rgba(165, 165, 165, 1);
+    font-size: 19px;
+    padding: 0px 17px;
+}
+
+/* Описание */
+.AboutGame {
+    margin-top: 52px;
+    max-width: 843px;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+}
+
+.AboutGame p:nth-child(2) {
+    width: 753px;
+}
+
+.AboutGame p:nth-child(3) {
+    width: 753px;
+}
+
+.AG_Text {
+    margin-bottom: 63px;
+}
+
+/* Блок фоток */
+.PhotoBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.Photo_PB {
+    padding: 5.4px;
+    width: 395px;
+}
+
+.LeftAndRight {
+    display: flex;
+}
+
+@media screen and (max-width:375px){
+    .Container {
+        max-width: 321px;
+        margin: 0 auto;
+    }
+    /* Название */
+    .GameName {
+        font-size: 51px;
+    }
+    /* Загрузка */
+    .DownloadMenu {
+        max-width: 321px;
+        margin-top: 40px;
+    }  
+    .ForWin {
+        font-size: 28px;
+    }  
+    .ButtonAndText {
+        display: flex;
+        align-items: center;
+    }
+    
+    .ButtonDownload {
+        width: 185px;
+        height: 31px;
+        font-size: 20px;
+        background-color: rgba(124, 0, 182, 1);
+        border-style: none;
+        border-radius: 10px;
+    }
+    
+    .YourPrice {
+        color: rgba(165, 165, 165, 1);
+        font-size: 16px;
+        padding: 0px 0px 0px 17px;
+    }
+    
+    /* Описание */
+    .AboutGame {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        max-width: 321px;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    
+    .AboutGame p:nth-child(2) {
+        width: 298px;
+    }
+    
+    .AboutGame p:nth-child(3) {
+        width: 298px;
+    }
+    
+    .AG_Text {
+        margin-bottom: 35px;
+    }
+    
+    /* Блок фоток */
+    .PhotoBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .Photo_PB {
+        padding:5.4px 0px;
+        width: 321px;
+    }
+    
+    .LeftAndRight {
+        display: flex;
+        flex-direction: column;
+    }
+}
